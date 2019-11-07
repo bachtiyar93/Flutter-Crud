@@ -1,0 +1,31 @@
+name: logintest
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  flutter_cupertino_date_picker: ^1.0.11
+  intl: ^0.15.7
+  http: ^0.12.0
+  shared_preferences: ^0.4.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.7.0
+flutter_icons:
+    android: "launcher_icon"
+    ios: true
+    image_path:
+      - assets/square.JPG
+
+flutter:
+  uses-material-design: true
+  assets:
+  - assets/Square.png
+  - assets/square.JPG
